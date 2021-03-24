@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title="homework"></title>
+    <style type="text/css">
+    a:link{color:aliceblue}
+    a.links:visited{color:lightblue}
+        body {background-color: aliceblue;}
+    .math{color:red;vertical-align: middle;text-align: center;}
+    .physics{color:blue;vertical-align: middle;text-align: center;}
+    .computer{color:purple;vertical-align: middle;text-align: center;}
+    .date{vertical-align: middle;text-align: center;}
+    .math,.computer,.physics{font-weight: bold;}
+    ul.a{list-style-type:circle;}
+    ul.b{list-style-type:square;}
+    table{
+        border-collapse: collapse;border-width: 1px ;
+        width:100%;
+        background-color: white;border-radius: 10px;;
+    }
+    td,th{padding: 5px;overflow:auto;}
+    th{background-color:skyblue;}
+    div{
+        margin:5px;
+        border:0px;
+        padding:0px;
+    }
+    form{vertical-align: middle;text-align: center;}
+    tr:hover{background-color: lightblue;}
+
+    </style>
+</head>
+
+<body>
+    <div id="container"  style="width: 100%;"></div>
+        <div id="header" style="width:100%;height:auto;background-color: red;color: white; padding:5px" >
+            <h1>Hi,Thomas.</h1>
+            <h2>Check your homework here.</h2>
+   </div>
+    <div id="links" style="width:15%;float:left;background-color:royalblue;font-size:large;height:auto;"></br>
+        <center><a class=links href="https://portal.pku.edu.cn/portal2017/#/index" target="_blank">北京大学信息门户</a></center>
+        </br>
+        <center><a class=links href="https://elective.pku.edu.cn/" target="_blank">选课网</a></center><br>
+        <center><a class=links href="https://course.pku.edu.cn/" target="_blank">教学网</a></center>
+    </br><br>
+    </div>
+    <div id="homework" style="width:80%;float:left;">
+    <table border="1" style="font-family: 'Times New Roman', Times, serif;font-size:large;">
+        <tr style="text-align: center;">
+            <th>Class name</td>
+            <th>Homework deadline</td>
+            <th>Homework Todo</td>
+            <th>Remark</td>
+            <th>Status</td></tr>
+        <tr>
+            <td class="math">数学分析(II)</td>
+            <td class="date">Tuesday.10</td>
+            <td id="sxfx">
+                <ul class="a">
+                <li>15.1.1|15.1.2</li>
+                <li>15.2.2|15.2.3</li>
+                <li>15.5.5(2)(4)(5)</li>
+                <li>15.6.4</li>
+                <li>15.6.12</li>
+                <li>15.6.15</li>
+                <li>15.6.16</li>
+                </ul>
+            <td>思考题</td>
+            <td><form><input type="checkbox" name="" value="1"></form> </td>
+        </tr>
+        <tr>
+            <td class="math">高等代数</td>
+            <td class="date">Tuesday.3</td>
+            <td><ul class="a"><li>23 24 26</li></ul></td>
+            <td></td>
+            <td><form><input type="checkbox" name="" value="1"></form> </td>
+
+        </tr>
+        <tr>
+            <td class="math">复变函数</td>
+            <td class="date">Friday.3</td>
+            <td><ul class="a"><li>4,6,7,9</li><li>10，11，12，18</li></ul></td>
+            <td></td>
+           <td><form><input type="checkbox" name="" value="1"></form> </td>
+
+        </tr>        <tr>
+            <td class="math">计算方法</td>
+            <td class="date">Monday.5</td>
+            <td><ul class="a"><li>P44-45,1,4,5,6</li><li>PPT66-2.3</li><li>补充题</li></ul></td>
+            <td></td>
+            <td><form><input type="checkbox" name="" value="1"></form> </td>
+
+        </tr>
+        <tr>
+            <td class="physics">普通物理(I)</td>
+            <td class="date">Thursday.10</td>
+            <td><ul class="b"><li>4.5,10,14,15,16</li><li>5.3,5,8,10</li></ul></td>
+            <td><a href="https://friendshao.github.io/teaching/phy21/phy21" target="_blank">课程主页</a></td>
+            <td><form><input type="checkbox" name="" value="1"></form> </td>
+
+        </tr>
+        <tr>
+            <td class="computer">数据结构与算法(B)</td>
+            <td class="date">?</td>
+            <td><a href="http://hxsjjg.openjudge.cn/" target="_blank">openjudge上的作业</a></td>
+
+            <td></td>
+            <td><form><input type="checkbox" name="" value="1"></form> </td>
+
+        </tr>      <tr>
+            <td class="computer">程序设计实习</td>
+            <td class="date">?</td>
+            <td><a href="http://cxsjsx.openjudge.cn/" target="_blank">openjudge上的作业</a></td>
+            <td><a href="https://www.icourse163.org/course/PKU-1002029030"target="_blank">MOOC（三）</a><br><a href="https://www.icourse163.org/course/PKU-1001894005"target="_blank">MOOC（二）</a></td>
+            <td><form><input type="checkbox" name="" value="1"></form> </td>
+        </tr>
+    </table>
+</div>
+</div>
+</body>
+</html>
